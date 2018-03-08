@@ -11,7 +11,9 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        // put your code here
+        require_once('db/conection.php');
+        require_once('controllers/nuevoEvento_controller.php');
+        require_once('views/nuevoEvento_view.php');
         ?>
     </body>
 </html>
